@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("checkout"){
             steps{
-                git "https://tools.publicis.sapient.com/bitbucket/scm/psiaug/assessment-aws-docker.git"
+                git "https://github.com/sbtalk71/assessment-aws-docker.git"
             }
         }
         
